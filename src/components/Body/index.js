@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 
 export default function Body() {
   return (
-    <div>
+    <div className="container">
       <Card>
         <Card.Body>This is the body.</Card.Body>
       </Card>

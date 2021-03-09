@@ -9,8 +9,8 @@ class HomeContainer extends Component {
     return (
       <div className="container">
         <Header />
-        <Body />
-        <Footer />
+        {/* <Body />
+        <Footer /> */}
       </div>
     );
   }
