@@ -5,7 +5,7 @@ export default function Body() {
   return (
     <div>
       <Card>
-        <Card.Body>This is some text within a card body.</Card.Body>
+        <Card.Body>This is the body.</Card.Body>
       </Card>
     </div>
   );

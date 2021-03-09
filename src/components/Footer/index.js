@@ -5,16 +5,11 @@ export default function Footer() {
   return (
     <div>
       <Card>
-        <Card.Header>Quote</Card.Header>
+        <Card.Header>Footer text</Card.Header>
         <Card.Body>
           <blockquote className="blockquote mb-0">
-            <p>
-              {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              posuere erat a ante.{" "}
-            </p>
             <footer className="blockquote-footer">
-              Someone famous in <cite title="Source Title">Source Title</cite>
+              Egg Sausage! <cite title="Source Title">Bill Fasset</cite>
             </footer>
           </blockquote>
         </Card.Body>
