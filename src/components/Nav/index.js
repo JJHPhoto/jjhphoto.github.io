@@ -5,7 +5,6 @@ export default function Nav() {
   return (
     <div>
       <ButtonGroup aria-label="Basic example">
-        <Button variant="secondary">Home</Button>
         <Button variant="secondary">About</Button>
         <Button variant="secondary">Contact</Button>
         <Button variant="secondary">Portfolio</Button>
