@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 
 export default function Footer() {
   return (
-    <div>
+    <div className="container">
       <Card>
         <Card.Header>Footer text</Card.Header>
         <Card.Body>
