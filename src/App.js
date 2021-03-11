@@ -1,37 +1,33 @@
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Portfolio from "./pages/Portfolio";
-
-import Header from "./components/Header";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./App.css";
+// import projects from "./projects.json";
 import Footer from "./components/Footer";
-import Resume from "./pages/Resume";
+import NavBar from "./components/NavBar";
+import Header from "./components/Header";
+import { Home } from "./pages/Home";
+import { Portfolio } from "./pages/Portfolio";
+import { About } from "./pages/About";
+import { Contact } from "./pages/Contact";
+import { Resume } from "./pages/Resume";
 
 function App() {
-  const pathName = window.location.pathname;
-
-  const displayPage = () => {
-    switch (pathName) {
-      case "/":
-        return <Portfolio />;
-      case "/About":
-        return <About />;
-      case "/Contact":
-        return <Contact />;
-      case "/Resume":
-        return <Resume />;
-      default:
-        return <Portfolio />;
-    }
-  };
-
   return (
-    <div className="App">
-      {console.log(pathName)}
+    <>
       <Header />
-      {displayPage()}
-      <br></br>
+      <Router>
+        <NavBar />
+        <div className="pages">
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/resume" component={Resume} />
+          </Switch>
+        </div>
+      </Router>
       <Footer />
-    </div>
+    </>
   );
 }
 

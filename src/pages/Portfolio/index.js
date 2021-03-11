@@ -1,10 +1,9 @@
 import React from "react";
-import "./Portfolio.css";
 
-export default function Portfolio() {
+export const Portfolio = () => {
   return (
-    <div className="container">
-      <h1> This is my portfolio page filler for now.</h1>
+    <div>
+      <h1> Portfolio</h1>
     </div>
   );
-}
+};

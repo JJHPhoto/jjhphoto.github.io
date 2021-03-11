@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Resume() {
+export const Resume = () => {
   return (
-    <div className="container">
-      <p> this is going to be a PDF download</p>
+    <div>
+      <h1> Resume</h1>
     </div>
   );
-}
+};
