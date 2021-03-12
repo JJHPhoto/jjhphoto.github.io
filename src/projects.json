@@ -1,23 +1,50 @@
 [
   {
     "id": 1,
-    "name": "Progressing",
-    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-    "occupation": "Front End",
-    "location": "Back End"
+    "project": "Pooaday",
+    "image": "/Port-Pooaday.jpg",
+    "links": "Repo Live",
+    "description": "Some explaination of how this app works ro...",
+    "team": "Jacob, David, Lana, Mia"
   },
   {
     "id": 2,
-    "name": "Pooaday",
-    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "occupation": "Front End",
-    "location": "Back End"
+    "project": "Progressing",
+    "image": "/Port-Pooaday.jpg",
+    "links": "Repo Live",
+    "description": "Some explaination of how this app works ro...",
+    "team": "Ian, Thomas, Ilya, Bryson"
   },
   {
     "id": 3,
-    "name": "Squidward",
-    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "project": "Portfolio",
+    "image": "/Port-Pooaday.jpg",
+    "links": "Repo Live",
+    "description": "Some explaination of how this app works ro...",
+    "team": ""
+  },
+  {
+    "id": 4,
+    "project": "Employee Directory",
+    "image": "/Port-Pooaday.jpg",
+    "links": "Repo Live",
+    "description": "Some explaination of how this app works ro...",
+    "team": ""
+  },
+  {
+    "id": 5,
+    "project": "Celeb Checker",
+    "image": "/Port-Pooaday.jpg",
+    "links": "Repo Live",
+    "description": "Some explaination of how this app works ro...",
+    "team": "Kat, Lana, Max, Rattanak"
+  },
+  {
+    "id": 6,
+    "project": "Weather Me",
+    "image": "/Port-Pooaday.jpg",
+    "links": "Repo Live",
+    "description": "Some explaination of how this app works ro...",
+    "team": ""
   }
 ]

@@ -5,19 +5,22 @@ function Project(props) {
   return (
     <div className="project-card">
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
+        <img alt={props.project} src={props.image} />
       </div>
       <div className="content">
         <ul>
           <li>
-            <strong>Name:</strong> {props.name}
+            <strong>Project:</strong> {props.project}
           </li>
           <li>
-            <strong>Occupation:</strong> {props.occupation}
+            <strong>Description:</strong> {props.description}
           </li>
           <li>
-            <strong>Location:</strong> {props.location}
+            <strong>Links:</strong> {props.links} {props.team}
           </li>
+          {/* <li>
+            <strong>Team:</strong> {props.team}
+          </li> */}
         </ul>
       </div>
     </div>
