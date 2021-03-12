@@ -48,6 +48,7 @@ export default function Footer() {
             >
               <FaFacebook />
             </a>
+            {/* <h3>© Joshua J Haller 2021</h3> */}
           </div>
         </Card.Body>
       </Card>

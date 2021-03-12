@@ -10,7 +10,7 @@
   {
     "id": 2,
     "project": "Progressing",
-    "image": "/Port-Pooaday.jpg",
+    "image": "/Port-Progressing.jpg",
     "links": "Repo Live",
     "description": "Some explaination of how this app works ro...",
     "team": "Ian, Thomas, Ilya, Bryson"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "project": "Portfolio",
-    "image": "/Port-Pooaday.jpg",
+    "image": "/Port-Port.jpg",
     "links": "Repo Live",
     "description": "Some explaination of how this app works ro...",
     "team": ""
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "project": "Employee Directory",
-    "image": "/Port-Pooaday.jpg",
+    "image": "/Port-Emp-Dir.jpg",
     "links": "Repo Live",
     "description": "Some explaination of how this app works ro...",
     "team": ""
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "project": "Celeb Checker",
-    "image": "/Port-Pooaday.jpg",
+    "image": "/Port-Project1.jpg",
     "links": "Repo Live",
     "description": "Some explaination of how this app works ro...",
     "team": "Kat, Lana, Max, Rattanak"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "project": "Weather Me",
-    "image": "/Port-Pooaday.jpg",
+    "image": "/Port-Weather.jpg",
     "links": "Repo Live",
     "description": "Some explaination of how this app works ro...",
     "team": ""
