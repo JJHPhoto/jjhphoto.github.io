@@ -3,7 +3,7 @@ import "./Project.css";
 
 function Project(props) {
   return (
-    <div className="card">
+    <div className="project-card">
       <div className="img-container">
         <img alt={props.name} src={props.image} />
       </div>
