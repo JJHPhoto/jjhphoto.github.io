@@ -18,6 +18,17 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 exact
+                to="/home"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Home
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
                 to="/portfolio"
                 activeClassName="active"
                 className="nav-links"

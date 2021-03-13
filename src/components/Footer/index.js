@@ -12,7 +12,6 @@ import {
 
 export default function Footer() {
   return (
-    // <div className="container">
     <div className="footer">
       <Card>
         <Card.Body>
@@ -53,6 +52,5 @@ export default function Footer() {
         </Card.Body>
       </Card>
     </div>
-    // </div>
   );
 }

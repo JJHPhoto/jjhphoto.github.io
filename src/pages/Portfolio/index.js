@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "../../components/Project";
 import Wrapper from "../../components/Wrapper";
-import projects from "../../projects.json";
+import projects from "../../components/projects";
 
 //function component to spread data from json file. look at .map
 
@@ -9,14 +9,25 @@ export const Portfolio = () => {
   return (
     <div>
       <Wrapper>
-        <Project
+        {projects.map((project) => {
+          return (
+            <Project
+              title={project.name}
+              image={project.image}
+              links={project.links}
+              team={project.team}
+              description={project.description}
+            />
+          );
+        })}
+        {/* <Project
           project={projects[0].project}
           image={projects[0].image}
           links={projects[0].links}
           team={projects[0].team}
           description={projects[0].description}
-        />
-        <Project
+        /> */}
+        {/* <Project
           project={projects[1].project}
           image={projects[1].image}
           links={projects[1].links}
@@ -50,7 +61,7 @@ export const Portfolio = () => {
           links={projects[5].links}
           team={projects[5].team}
           description={projects[5].description}
-        />
+        /> */}
       </Wrapper>
     </div>
   );
