@@ -1,8 +1,15 @@
+import pooaday from "./photos/Port-Pooaday.jpg";
+import progressing from "./photos/Port-Progressing.jpg";
+import portfolio from "./photos/Port-Port.jpg";
+import employeeDir from "./photos/Port-Emp-Dir.jpg";
+import project1 from "./photos/Port-Project1.jpg";
+import weather from "./photos/Port-Weather.jpg";
+
 const projects = [
   {
     id: 1,
     name: "Pooaday",
-    image: "../photos/Port-Pooaday.jpg",
+    image: pooaday,
     links: "Repo Live",
     description: "Some explaination of how this app works ro...",
     team: "Jacob, David, Lana, Mia",
@@ -10,7 +17,7 @@ const projects = [
   {
     id: 2,
     name: "Progressing",
-    image: "../photos/Port-Progressing.jpg",
+    image: progressing,
     links: "Repo Live",
     description: "Some explaination of how this app works ro...",
     team: "Ian, Thomas, Ilya, Bryson",
@@ -18,7 +25,7 @@ const projects = [
   {
     id: 3,
     name: "Portfolio",
-    image: "../photos/Port-Port.jpg",
+    image: portfolio,
     links: "Repo Live",
     description: "Some explaination of how this app works ro...",
     team: "",
@@ -26,7 +33,7 @@ const projects = [
   {
     id: 4,
     name: "Employee Directory",
-    image: "../photos/Port-Emp-Dir.jpg",
+    image: employeeDir,
     links: "Repo Live",
     description: "Some explaination of how this app works ro...",
     team: "",
@@ -34,7 +41,7 @@ const projects = [
   {
     id: 5,
     name: "Celeb Checker",
-    image: "../photos/Port-Project1.jpg",
+    image: project1,
     links: "Repo Live",
     description: "Some explaination of how this app works ro...",
     team: "Kat, Lana, Max, Rattanak",
@@ -42,7 +49,7 @@ const projects = [
   {
     id: 6,
     name: "Weather Me",
-    image: "../photos/Port-Weather.jpg",
+    image: weather,
     links: "Repo Live",
     description: "Some explaination of how this app works ro...",
     team: "",
