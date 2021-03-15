@@ -17,7 +17,10 @@ function Project(props) {
             <strong>Description:</strong> {props.description}
           </li>
           <li>
-            <strong>Links:</strong> {props.links} {props.team}
+            <strong>Repository:</strong> {props.repo} {props.team}
+          </li>
+          <li>
+            <strong>Live Site:</strong>
           </li>
           {/* <li>
             <strong>Team:</strong> {props.team}
