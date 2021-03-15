@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# [Project name](...)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Available Scripts
+<p>
+    <img src="https://img.shields.io/github/repo-size/JJHPhoto/jjhphoto.github.io" />
+    <img src="https://img.shields.io/github/languages/top/JJHPhoto/jjhphoto.github.io"  />
+    <img src="https://img.shields.io/github/issues/JJHPhoto/jjhphoto.github.io" />
+    <img src="https://img.shields.io/github/last-commit/JJHPhoto/jjhphoto.github.io" >
+</p>
+<p>
+    <a href="https://github.com/JJHPhoto">
+        <img alt="Github: JJHPhoto" src="https://img.shields.io/github/followers/JJHPhoto ?style=social" target="_blank" />
+    </a>
+    <a href="https://twitter.com/jpixtwit">
+        <img alt="Twitter: jpixtwit" src="https://img.shields.io/twitter/follow/jpixtwit.svg?style=social" target="_blank" />
+    </a>
+</p>
 
-In the project directory, you can run:
+## Application Descrition
 
-### `npm start`
+This is my React Web Dev portfolio. I plan to make more imporovements as I get better at React. My next step is to host this on my own domain, which I already own
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Application Demo
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![Image](./public/AppSS.jpg)
 
-### `npm test`
+To watch a video of the application being fully demo'd please use this link: [Application Demo](...).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+<p>
+  <img src="https://img.shields.io/badge/-React-informational" />
+  <img src="https://img.shields.io/badge/-heroku-red" />
+  <img src="https://img.shields.io/badge/-css-success" />
+  <img src="https://img.shields.io/badge/-node.js-green" />
+  <img src="https://img.shields.io/badge/lint-informational" />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Workflow
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project was quite frustrating. In the instructional Readme, we were told to deploy to Github pages. Our instructor mentioned that you should be depoloying at the root of your Github so that you get a nice, clean URL. This sounded great but we had been given no instructions on how to do this. Our instructor told us to name the repo in a specific way so that it'd be the root of your repo. No big deal there. The issue came when we tried to follow the deployment instructions given in our Readme. To say they were not helpful would be kind. They were terrible! So many classmates had issues with it to the point that our instructor and TAs told us to not bother deploying to Github pages and just use Heroku. The frustrating bit was this was told to us after a week of us trying to get Github pages to work. Which had happened the week before on our previous homework. Which we were eventually told to deploy to Heroku instead of Github pages.
 
-### `npm run eject`
+Once that got sorted, I stashed my previous repo because it was not working. I renamed it so that I could use the root name of my Github. After installing my React app, I created components and pages based on how I understood the instructional Readme. I also removed all the unnecessary React parts that are installed.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Resources
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Shields.io](https://shields.io/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[React Icons](https://react-icons.github.io/react-icons/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[React Responsive Navbar Tutorial](https://www.youtube.com/watch?v=BHC-ll9PFe0&t=2s)
 
-## Learn More
+[Screencastify](https://www.screencastify.com/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+My Study Group
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Dan](https://github.com/DanZosh)
+- [Thomas](https://github.com/Tskading)
+- [Zac](https://github.com/themancalledzac)
