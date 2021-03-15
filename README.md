@@ -19,7 +19,7 @@
 
 ## Application Descrition
 
-This is my React Web Dev portfolio. I plan to make more imporovements as I get better at React. My next step is to host this on my own domain, which I already own
+This is my React Web Dev portfolio. I plan to make more improvements as I get better at React. My next step is to host this on my own domain, which I already own
 
 ## Application Demo
 
