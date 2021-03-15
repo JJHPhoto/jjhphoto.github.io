@@ -3,7 +3,7 @@ import React from "react";
 export const Home = () => {
   return (
     <div className="container">
-      <h1> Home</h1>
+      {/* <h1> Home</h1> */}
       <p>
         Welcome! I hope that you will take the time to check out my portfolio,
         learn a bit more about me and download my resume. If you like my work,

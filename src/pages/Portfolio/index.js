@@ -15,8 +15,14 @@ export const Portfolio = () => {
               title={project.name}
               image={project.image}
               repo={project.repo}
-              team={project.team}
+              team1={project.team1}
+              team2={project.team2}
+              team3={project.team3}
+              team4={project.team4}
+              team5={project.team5}
               description={project.description}
+              liveSite={project.liveSite}
+              teamTitle={project.teamTitle}
             />
           );
         })}

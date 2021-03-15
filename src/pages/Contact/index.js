@@ -4,10 +4,9 @@ import { FaEnvelope, FaMobile } from "react-icons/fa";
 export const Contact = () => {
   return (
     <div className="contact">
-      <h2 className="contactTitle"> Contact Me</h2>
+      {/* <h2 className="contactTitle"> Contact Me</h2> */}
       <p>
-        <FaEnvelope />
-        info@joshuajhaller.com
+        <FaEnvelope /> info@joshuajhaller.com
       </p>
       <p>
         <FaMobile />
