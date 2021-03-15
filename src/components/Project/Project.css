@@ -9,12 +9,6 @@
   text-align: left;
 }
 
-/* .project-card > .img-container {
-  height: 60%;
-  overflow: hidden;
-  text-align: center;
-  background: #6caddc;
-} */
 .project-card > .img-container > img {
   width: 100%;
 }
@@ -28,7 +22,3 @@
 .project-card > .content > ul {
   list-style-type: none;
 }
-
-/* .project-card > .content > ul > li {
-  margin-top: 18px;
-} */
