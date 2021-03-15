@@ -192,7 +192,7 @@ const projects = [
         variant="secondary"
         href="https://jjhphoto.github.io/celebchecker/"
       >
-        <SiHeroku /> Live application
+        <FaGithub /> Live application
       </Button>
     ),
   },
